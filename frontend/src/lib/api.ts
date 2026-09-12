@@ -15,3 +15,4 @@ export async function runInference(framework: string, data: number[][]) {
 
   return response.json();
 }
+
