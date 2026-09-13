@@ -1,4 +1,4 @@
-# ML-x Monorepo
+# ML-x
 
 A full-stack, production-ready machine learning template. Unifies a Next.js 14 frontend with a Python 3.11 FastAPI backend capable of multi-framework inference (PyTorch, TensorFlow, XGBoost, Scikit-learn).
 
