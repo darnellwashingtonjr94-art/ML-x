@@ -1,0 +1,21 @@
+# Dependency directories
+node_modules
+npm-debug.log
+
+# Git and GitHub Actions
+.git
+.gitignore
+.github
+
+# Docker configurations
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Secrets and local environments
+.env
+.env.local
+
+# Documentation and testing
+README.md
+coverage
