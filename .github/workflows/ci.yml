@@ -37,5 +37,4 @@ jobs:
           npm install
           npm run build
         env:
-          # IMPORTANT: Change "BACKEND_API_URL" if your next.config.js uses a different name (e.g., NEXT_PUBLIC_API_URL)
-          BACKEND_API_URL: "http://localhost:8000"
+          NEXT_PUBLIC_API_URL: "http://localhost:8000"
