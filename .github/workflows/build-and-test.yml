@@ -1,0 +1,32 @@
+name: build-and-test
+
+on: [push, pull_request] # (This trigger is just an assumption)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # (Inferred from the linux-x64 download in your logs)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: 'frontend/package-lock.json'
+          always-auth: false
+          check-latest: false
+
+      - name: Setup Python
+        # The exact action/version (e.g., actions/setup-python@v5) is hidden in the log
+        
+      - name: Install Backend Deps
+        # The exact run commands (e.g., pip install -r requirements.txt) are hidden
+        
+      - name: Run Backend Tests
+        # The exact run commands (e.g., pytest) are hidden
+        
+      - name: Build Frontend
+        # The exact run commands (e.g., npm run build) are hidden
