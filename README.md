@@ -37,7 +37,7 @@ It bridges the entire gap from code to cloud. You don't just get an app—you ge
 ## 💻 How to install this?
 ```bash
 # 1. Clone the repository
-git clone [https://github.com/Credkellar-boop/ML-x.git](https://github.com/Credkellar-boop/ML-x.git)
+git clone [https://github.com/darnellwashingtonjr94-art/ML-x.git](https://github.com/darnellwashingtonjr94-art/ML-x.git)
 
 # 2. Navigate into the directory
 cd ML-x
