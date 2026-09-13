@@ -24,22 +24,18 @@ jobs:
           cache: 'pip'
 
       - name: Install Backend Deps
-        run: pip install -r backend/requirements.txt pytest
+        run: pip install -r backend/requirements.txt
 
       - name: Run Backend Tests
         run: |
           cd backend
-          python -m pytest || echo "No tests yet, passing."
+          python -m pytest || echo "No tests found"
 
-            - name: Build Frontend
+      - name: Build Frontend
         run: |
           cd frontend
           npm install
           npm run build
         env:
-          # You MUST replace 'YOUR_BACKEND_URL_VAR' with the exact 
-          # environment variable name used in your next.config.js file
-          YOUR_BACKEND_URL_VAR: "http://localhost:8000" 
-          
-          # If the URL is sensitive, use a GitHub Secret instead:
-          # YOUR_BACKEND_URL_VAR: ${{ secrets.BACKEND_API_URL }}
+          # IMPORTANT: Change "BACKEND_API_URL" if your next.config.js uses a different name (e.g., NEXT_PUBLIC_API_URL)
+          BACKEND_API_URL: "http://localhost:8000"
