@@ -5,8 +5,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
 
-## 🧸 Explain this in 5th grade English pleaseeee
-Imagine you are running a cool virtual amusement park. The **frontend** is the shiny ticket booth and colorful rides that everyone sees, the **backend** is the secret machine room running the whole show behind the walls, and **Terraform** is the magic construction crew that instantly builds the entire park grounds wherever you want. **ML-x** is the master blueprint that packages all of this together so you can pack it up in a box and spin up the whole park anywhere with one click!
+(Imagine you are running a cool virtual amusement park. The **frontend** is the shiny ticket booth and colorful rides that everyone sees, the **backend** is the secret machine room running the whole show behind the walls, and **Terraform** is the magic construction crew that instantly builds the entire park grounds wherever you want. **ML-x** is the master blueprint that packages all of this together so you can pack it up in a box and spin up the whole park anywhere with one click!)
 
 ## 🎯 What this is?
 **ML-x** is a fully containerized, cloud-provisioned full-stack application workspace. It couples a robust backend service with an interactive frontend, automated infrastructure provisioning via Terraform, and streamlined Docker orchestration.
