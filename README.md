@@ -54,7 +54,6 @@
 
 ---
 
-## 🧸 Explain this in 5th grade English pleaseeee
 Imagine you are running a giant high-tech theme park. The **frontend** is the colorful ticket booth and fun rides everyone can see, the **backend** is the hidden engine room keeping everything running smoothly, and **Terraform** is the magic construction crew that instantly builds the entire park grounds anywhere you want. **ML-x** is the master blueprint that packs all of this together into a single box so you can spin up the whole system anywhere with one click!
 
 ## 🎯 What this is?
@@ -95,3 +94,15 @@ cd ML-x
 
 # 3. Spin up the entire stack with Docker Compose
 docker-compose up --build
+
+ML-x/
+├── .github/                # CI/CD workflows and automated pipelines
+├── backend/                # Server-side application logic, APIs, and data handlers
+├── frontend/               # Client-side user interface code
+├── terraform/              # Infrastructure-as-Code configuration files
+├── .dockerignore           # Files to exclude from Docker builds
+├── .gitignore              # Files to exclude from Git tracking
+├── Dockerfile              # Container build instructions for the application stack
+├── README.md               # The top-level project documentation (you are here)
+├── docker-compose.yml      # Multi-container orchestration definition
+└── package-lock.json       # Locked dependency tree for JavaScript/Node modules
