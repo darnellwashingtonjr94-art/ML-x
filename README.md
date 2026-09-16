@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="IMG_1654.jpeg" alt="MLx Logo" width="600">
+</p>
+
 # 🚀 ML-x
 
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
